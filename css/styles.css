@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+p {
+  color: #696969;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.big-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+/* Navbar Section */
+
+.navbar-brand {
+  margin-left: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-items {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+  font-weight: 300;
+}
+
+.button-Download {
+  margin: 5% 3% 5% 0;
+  border-radius: 50px;
+}
+
+.tittle-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.position-rel {
+  position: relative;
+}
+
+
+
+/* Features Section */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.icon-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+#testimonials .big-heading{
+  font-size: 3rem;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.princing-col {
+  padding: 3% 2%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-text-1 {
+  padding: 15px 0 25px;
+}
+
+
+
+.footer-text {
+  font-weight: 400;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .tittle-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
